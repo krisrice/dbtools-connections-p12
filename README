@@ -1,0 +1,24 @@
+
+
+## Node
+```
+npm i 
+node sample-p12.js 
+```
+
+## Python 
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python sample-p12.py
+```
+
+## Java
+```
+cd java/DBToolsJDBCP12
+mvn compile exec:java
+
+```
+
