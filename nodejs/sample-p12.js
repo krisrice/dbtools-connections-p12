@@ -9,12 +9,12 @@ const { filestorage } = require("oci-sdk");
 
 
 // compartment id
-compartment_id = 'ocid1.tenancy.oc1..aaaaaaaaplcmdlf2lhfcqlkdid6hordp5zj5kb2gr3vhoeh4yghal2jqnqma'
+compartment_id = 'ocid1.tenancy.oc1..xxx'
 // dbConnection_OCID
-conn_id = 'ocid1.databasetoolsconnection.oc1.iad.amaaaaaakl7rxeyawfijlfsgfkx4fcp5sbzd3taa53wohxjpqfvionywp2pa'
+conn_id = 'ocid1.databasetoolsconnection.oc1.iad.xxx'
 // oci profile
 ociConfig = "~/.oci/config";
-ociProfile = 'KRISRICEIO';
+ociProfile = 'xxx';
 
 //
 // hopefully a much better way but this is what I found

@@ -12,10 +12,10 @@ from cryptography import x509
 tempWalletPassword="Change-Example-Passw0rd!"
 
  # Load an OCI config with the DEFAULT profile
-oci_config = from_file(file_location="~/.oci/config", profile_name="KRISRICEIO")
+oci_config = from_file(file_location="~/.oci/config", profile_name="xxx")
 
-compartment_id = 'ocid1.tenancy.oc1..aaaaaaaaplcmdlf2lhfcqlkdid6hordp5zj5kb2gr3vhoeh4yghal2jqnqma'
-conn_id = 'ocid1.databasetoolsconnection.oc1.iad.amaaaaaakl7rxeya4wrmnp7ecidqjkrjyuemevmhlszkngrygeu7i4pcxi7q'
+compartment_id = 'ocid1.tenancy.oc1..xxx'
+conn_id = 'ocid1.databasetoolsconnection.oc1.iad.xxx'
 
 dbtools_client = oci.database_tools.DatabaseToolsClient(config=oci_config)
 

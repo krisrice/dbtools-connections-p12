@@ -12,11 +12,11 @@ walletDir = "wallet"
 os.mkdir(walletDir)
 
  # Load an OCI config with the DEFAULT profile
-oci_config = from_file(file_location="~/.oci/config", profile_name="KRISRICEIO")
+oci_config = from_file(file_location="~/.oci/config", profile_name="xxx")
 # compartment_id
-compartment_id = 'ocid1.tenancy.oc1..aaaaaaaaplcmdlf2lhfcqlkdid6hordp5zj5kb2gr3vhoeh4yghal2jqnqma'
+compartment_id = 'ocid1.tenancy.oc1..xxx'
 # dbConnection_OCID
-conn_id = 'ocid1.databasetoolsconnection.oc1.iad.amaaaaaakl7rxeyawfijlfsgfkx4fcp5sbzd3taa53wohxjpqfvionywp2pa'
+conn_id = 'ocid1.databasetoolsconnection.oc1.iad.xxx'
 
 # dbtoolsClient
 dbtools_client = oci.database_tools.DatabaseToolsClient(config=oci_config)

@@ -28,9 +28,9 @@ import java.util.Properties;
 
 public class SampleP12 {
   static String OCI_CONFIG = "~/.oci/config";
-  static String OCI_PROFILE ="KRISRICEIO";
-  static String OCI_COMPARTMENT= "ocid1.tenancy.oc1..aaaaaaaaplcmdlf2lhfcqlkdid6hordp5zj5kb2gr3vhoeh4yghal2jqnqma";
-  static String OCI_CONNECTION = "ocid1.databasetoolsconnection.oc1.iad.amaaaaaakl7rxeyawfijlfsgfkx4fcp5sbzd3taa53wohxjpqfvionywp2pa";
+  static String OCI_PROFILE ="xxx";
+  static String OCI_COMPARTMENT= "ocid1.tenancy.oc1..xxx";
+  static String OCI_CONNECTION = "ocid1.databasetoolsconnection.oc1.iad.xxx";
 
 
   public static void main(String[] args) throws IOException, UnrecoverableKeyException, CertificateException, NoSuchAlgorithmException, SQLException {
